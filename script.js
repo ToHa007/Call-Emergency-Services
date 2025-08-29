@@ -88,9 +88,13 @@ clearBtn.addEventListener("click", function () {
 copyButtons.forEach(function(button) {
   button.addEventListener("click", async function() {
     const card = button.closest(".card_parent");
+    const serviceName = card.querySelector(".p_div h1").textContent;
     const serviceNumber = card.querySelector(".p_div h2").textContent;
 
-    await navigator.clipboard.writeText(serviceNumber); // copy to clipboard
+    await navigator.clipboard.writeText(serviceNumber); 
+    // copy to clipboard
+
+    alert("Copied " + serviceName + " (" + serviceNumber + ") to clipboard! ✅");
 
     copyCount++;
     copyCounterBtn.querySelector("span")?.remove(); 
