@@ -23,6 +23,9 @@ document.body.appendChild(newDiv);
 3. What is Event Bubbling and how does it work?
 Ans:-
 Event bubbling means when an event happens on an element, it first runs the handler on that element, then moves upwards through its parent elements one by one until it reaches the root (document).
+
+
+
 4.What is Event Delegation in JavaScript? Why is it useful?
 Ans:-
 
@@ -31,6 +34,9 @@ Event delegation means adding a single event listener to a parent element to han
 
 Useful because Saves memory.
 Handles dynamically added elements automatically.
+
+
+
 5.What is the difference between preventDefault() and stopPropagation() methods?
 Ans:-
 
