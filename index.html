@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>Emergency Helpline</title>
+
+
+
+</head>
+<body>
+    
+
+      <header class="h-25 w-full">
+  <div class="parent flex justify-between items-center mt-4 px-6">
+    <!-- Left side -->
+    <div class="parent_left flex gap-3">
+      <img class="w-19" src="logo.png" alt="">
+      <h1 class="text-4xl font-bold text-green-900">Emergency <br>Service</h1>
+    </div>
+
+    <!-- Right side -->
+    <div class="parent_right flex gap-4">
+      <div>
+<button class="flex gap-3 rounded-3xl bg-green-100 px-9 py-2.5">
+            <span id="heart-count">0</span> 
+             <img class="w-8" src="heart.png" alt="">
+
+        </button>
+      </div>
+      <div>
+        <button class="flex gap-3 rounded-3xl bg-green-100 px-9 py-2.5">
+          <span id="coin-counter">100</span> <img class="w-8" src="coin.png" alt="">
+        </button>
+      </div>
+
+      <button class="bg-green-400 px-9 py-3 rounded-3xl font-semibold text-white">
+        0 Copy
+      </button>
+    </div>
+  </div>
+</header>
+
+
+
+
+ <!-- Banner Section -->
+<section class="h-65 w-full flex items-center justify-center  bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223]">
+<div class="parent flex flex-col items-center text-center gap-4 ">
+    <img class="w-[90px]" src="logo.png" alt="">
+    <h1 class="text-5xl text-white font-bold">Emergency Service Directory</h1>
+<p class="text-lg sm:text-xl text-white font-semibold text-center px-4 ">
+ Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh
+</p>
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+<!-- main body section -->
+<section class="parent bg-[#e3e6e5] py-20 w-full flex flex-col lg:flex-row gap-5 px-8">
+
+<div class="left_div_cards flex-1 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+
+  <!-- card 1 -->
+<div class="card_parent bg-white w-full h-auto shadow rounded-xl p-6 ">
+  <div class="flex justify-between p-6">
+  <img class="w-9" src="emergency.png" alt="">
+  <img class="w-8 heart-btn" src="heart.png" alt="">
+  </div>
+<div class="p_div px-6 ">
+<h1 class="text-2xl mt-5 font-bold">National Emergency Number</h1>
+<p class="text-lg ">National Emergency</p>
+<h2 class="text-3xl mt-5 font-bold">999</h2>
+<button class="text-md bg-gray-100 p-4  rounded-3xl">ALL</button>
+
+<div class="buttons mt-4 flex items-center justify-center gap-2 w-full">
+  <button class="flex-1 flex items-center justify-center gap-2 py-2 text-gray-500 shadow rounded-lg">
+    <img class="w-4" src="copy.png" alt=""> Copy
+  </button>
+  <button class="flex-1 flex items-center justify-center gap-2 py-2 bg-green-500 text-white rounded-lg">
+    <img class="w-4 filter invert" src="telephone.png" alt=""> Call
+  </button>
+</div>
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+  <!-- card 2 -->
+<div class="card_parent bg-white w-full h-auto shadow rounded-xl p-6 ">
+  <div class="flex justify-between p-6">
+    <img class="w-9" src="police.png" alt="">
+<img class="w-8 heart-btn" src="heart.png" alt="">
+       </div>
+<div class="p_div px-6 ">
+<h1 class="text-2xl mt-5 font-bold">Police Helpline Number</h1>
+<p class="text-lg ">Police</p>
+<h2 class="text-3xl mt-5 font-bold">999</h2>
+<button class="text-md bg-gray-100 p-4  rounded-3xl">Police</button>
+
+<div class="buttons mt-4 flex items-center justify-center gap-2 w-full">
+  <button class="flex-1 flex items-center justify-center gap-2 py-2 text-gray-500 shadow rounded-lg">
+    <img class="w-4" src="copy.png" alt=""> Copy
+  </button>
+  <button class="flex-1 flex items-center justify-center gap-2 py-2 bg-green-500 text-white rounded-lg">
+    <img class="w-4 filter invert" src="telephone.png" alt=""> Call
+  </button>
+</div>
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+  <!-- card 3 -->
+<div class="card_parent bg-white w-full h-auto shadow rounded-xl p-6">
+  <div class="flex justify-between p-6">
+    <img class="w-9" src="fire-service.png" alt="">
+<img class="w-8 heart-btn" src="heart.png" alt="">
+       </div>
+<div class="p_div px-6 ">
+<h1 class="text-2xl mt-5 font-bold">Fire Service Number</h1>
+<p class="text-lg ">Fire Service</p>
+<h2 class="text-3xl mt-5 font-bold">999</h2>
+<button class="text-md bg-gray-100 p-4  rounded-3xl">Fire</button>
+
+<div class="buttons mt-4 flex items-center justify-center gap-2 w-full">
+  <button class="flex-1 flex items-center justify-center gap-2 py-2 text-gray-500 shadow rounded-lg">
+    <img class="w-4" src="copy.png" alt=""> Copy
+  </button>
+  <button class="flex-1 flex items-center justify-center gap-2 py-2 bg-green-500 text-white rounded-lg">
+    <img class="w-4 filter invert" src="telephone.png" alt=""> Call
+  </button>
+</div>
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+  <!-- card 4 -->
+<div class="card_parent bg-white w-full h-auto shadow rounded-xl p-6">
+  <div class="flex justify-between p-6">
+    <img class="w-9" src="ambulance.png" alt="">
+<img class="w-8 heart-btn" src="heart.png" alt="">
+       </div>
+<div class="p_div px-6 ">
+<h1 class="text-2xl mt-5 font-bold">Ambulance Service</h1>
+<p class="text-lg ">Ambulance</p>
+<h2 class="text-3xl mt-5 font-bold">1994-999999</h2>
+<button class="text-md bg-gray-100 p-4  rounded-3xl">Health</button>
+
+<div class="buttons mt-4 flex items-center justify-center gap-2 w-full">
+  <button class="flex-1 flex items-center justify-center gap-2 py-2 text-gray-500 shadow rounded-lg">
+    <img class="w-4" src="copy.png" alt=""> Copy
+  </button>
+  <button class="flex-1 flex items-center justify-center gap-2 py-2 bg-green-500 text-white rounded-lg">
+    <img class="w-4 filter invert" src="telephone.png" alt=""> Call
+  </button>
+</div>
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+  <!-- card 5 -->
+<div class="card_parent bg-white w-full h-auto shadow rounded-xl p-6 ">
+  <div class="flex justify-between p-6">
+    <img class="w-9" src="emergency.png" alt="">
+<img class="w-8 heart-btn" src="heart.png" alt="">
+       </div>
+<div class="p_div px-6 ">
+<h1 class="text-2xl mt-5 font-bold">Women & Child Helpline</h1>
+<p class="text-lg ">Women & Child Helpline</p>
+<h2 class="text-3xl mt-5 font-bold">109</h2>
+<button class="text-md bg-gray-100 p-4  rounded-3xl">Help</button>
+
+<div class="buttons mt-4 flex items-center justify-center gap-2 w-full">
+  <button class="flex-1 flex items-center justify-center gap-2 py-2 text-gray-500 shadow rounded-lg">
+    <img class="w-4" src="copy.png" alt=""> Copy
+  </button>
+  <button class="flex-1 flex items-center justify-center gap-2 py-2 bg-green-500 text-white rounded-lg">
+    <img class="w-4 filter invert" src="telephone.png" alt=""> Call
+  </button>
+</div>
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+  <!-- card 6 -->
+<div class="card_parent bg-white w-full h-auto shadow rounded-xl p-6 ">
+  <div class="flex justify-between p-6">
+    <img class="w-9" src="emergency.png" alt="">
+<img class="w-8 heart-btn" src="heart.png" alt="">
+       </div>
+<div class="p_div px-6 ">
+<h1 class="text-2xl mt-5 font-bold">Anti-Corruption Helpline</h1>
+<p class="text-lg ">Anti-Corruption </p>
+<h2 class="text-3xl mt-5 font-bold">106</h2>
+<button class="text-md bg-gray-100 p-4  rounded-3xl">Govt.</button>
+
+<div class="buttons mt-4 flex items-center justify-center gap-2 w-full">
+  <button class="flex-1 flex items-center justify-center gap-2 py-2 text-gray-500 shadow rounded-lg">
+    <img class="w-4" src="copy.png" alt=""> Copy
+  </button>
+  <button class="flex-1 flex items-center justify-center gap-2 py-2 bg-green-500 text-white rounded-lg">
+    <img class="w-4 filter invert" src="telephone.png" alt=""> Call
+  </button>
+</div>
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+  <!-- card 7 -->
+<div class="card_parent bg-white w-full h-auto shadow rounded-xl p-6 ">
+  <div class="flex justify-between p-6">
+    <img class="w-9" src="emergency.png" alt="">
+<img class="w-8 heart-btn" src="heart.png" alt="">
+       </div>
+<div class="p_div px-6 ">
+<h1 class="text-2xl mt-5 font-bold">Electricity Helpline</h1>
+<p class="text-lg ">Electricity Outage</p>
+<h2 class="text-3xl mt-5 font-bold">16216</h2>
+<button class="text-md bg-gray-100 p-4  rounded-3xl">Electricity</button>
+
+<div class="buttons mt-4 flex items-center justify-center gap-2 w-full">
+  <button class="flex-1 flex items-center justify-center gap-2 py-2 text-gray-500 shadow rounded-lg">
+    <img class="w-4" src="copy.png" alt=""> Copy
+  </button>
+  <button class="flex-1 flex items-center justify-center gap-2 py-2 bg-green-500 text-white rounded-lg">
+    <img class="w-4 filter invert" src="telephone.png" alt=""> Call
+  </button>
+</div>
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+  <!-- card 8 -->
+<div class="card_parent bg-white w-full h-auto shadow rounded-xl p-6 ">
+  <div class="flex justify-between p-6">
+    <img class="w-9" src="emergency.png" alt="">
+<img class="w-8 heart-btn" src="heart.png" alt="">
+       </div>
+<div class="p_div px-6 ">
+<h1 class="text-2xl mt-5 font-bold">Brac Helpline</h1>
+<p class="text-lg ">Brac</p>
+<h2 class="text-3xl mt-5 font-bold">16445</h2>
+<button class="text-md bg-gray-100 p-4  rounded-3xl">NGO</button>
+
+<div class="buttons mt-4 flex items-center justify-center gap-2 w-full">
+  <button class="flex-1 flex items-center justify-center gap-2 py-2 text-gray-500 shadow rounded-lg">
+    <img class="w-4" src="copy.png" alt=""> Copy
+  </button>
+  <button class="flex-1 flex items-center justify-center gap-2 py-2 bg-green-500 text-white rounded-lg">
+    <img class="w-4 filter invert" src="telephone.png" alt=""> Call
+  </button>
+</div>
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+  <!-- card 9 -->
+<div class="card_parent bg-white w-full h-auto shadow rounded-xl p-6">
+  <div class="flex justify-between p-6">
+    <img class="w-9" src="emergency.png" alt="">
+<img class="w-8 heart-btn" src="heart.png" alt="">
+       </div>
+<div class="p_div px-6 ">
+<h1 class="text-2xl mt-5 font-bold">Bangladesh Railway Helpline </h1>
+<p class="text-lg ">Bangladesh Railway </p>
+<h2 class="text-3xl mt-5 font-bold">163</h2>
+<button class="text-md bg-gray-100 p-4  rounded-3xl">Travel</button>
+
+<div class="buttons mt-4 flex items-center justify-center gap-2 w-full">
+  <button class="flex-1 flex items-center justify-center gap-2 py-2 text-gray-500 shadow rounded-lg">
+    <img class="w-4" src="copy.png" alt=""> Copy
+  </button>
+  <button class="flex-1 flex items-center justify-center gap-2 py-2 bg-green-500 text-white rounded-lg">
+    <img class="w-4 filter invert" src="telephone.png" alt=""> Call
+  </button>
+</div>
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="right_div_calculation " >
+
+<div class="history_box bg-white w-full lg:w-[380px] rounded-xl min-h-[400px] pb-20">
+
+<div class="history_box_top flex items-center justify-between p-10">
+
+
+<div class="flex gap-2 justify-center items-center">
+  <img src="clock.png" class="w-6" alt="">
+  <p class="font-semibold ">Call History</p></div>
+
+
+<button class="bg-green-400 px-9 py-3 rounded-3xl text-white font-semibold">Clear</button>
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<script src="script.js"></script>
+<body>
+    
+
+</body>
+</html>
